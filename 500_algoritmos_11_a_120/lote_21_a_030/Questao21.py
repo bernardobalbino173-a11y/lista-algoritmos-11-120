@@ -1,0 +1,10 @@
+# Algoritmo 21: Testando hierarquia de operadores aritméticos
+print("TESTANDO HIERARQUIA\n")
+print("12 + 5 / 2 é igual a:", 12 + 5 / 2)
+print("É DIFERENTE DE (12 + 5) / 2 que é igual a:", (12 + 5) / 2)
+print("\n64 ** 1 / 4 é igual a:", 64 ** 1 / 4)
+print("É DIFERENTE de 64 ** (1 / 4) que é igual a:", 64 ** (1 / 4))
+print("\n3 * 7 % 5 é igual a:", 3 * 7 % 5)
+print("No livro (UAL), % tem precedência maior que *, mas em Python têm a mesma precedência (esquerda -> direita).")
+print("\n3 * 7 // 5 é igual a:", 3 * 7 // 5)
+print("É IGUAL a (3 * 7) // 5:", (3 * 7) // 5)

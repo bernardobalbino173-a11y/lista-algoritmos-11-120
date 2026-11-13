@@ -1,0 +1,5 @@
+# Algoritmo 61: Calcular o 5º termo de uma Progressão Geométrica (PG)
+termo = int(input("Entre com o 1o termo: "))
+razao = int(input("Entre com a razao: "))
+quinto = termo * (razao ** 4)
+print("O 5o termo desta P.G. e:", quinto)
